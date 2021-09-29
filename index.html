@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The freshest Seafood on the South-Coast Australia."
+    />
+    <meta property="og:title" content="Narooma Bridge Seafoods" />
+    <meta
+      property="og:description"
+      content="Narooma Bridge Seafood is a local Eurobodalla business supplying frsh fish and lobster to locals and travellers."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="images/Narooma-bridge-seafood-shop.jpeg"
+    />
+    <meta property="og:url" content="" />
+    <title>Narooma Bridge Seafood</title>
+    <link rel="icon" href="#" />
+    <link rel="apple-touch-icon" sizes="72x72" href="#" />
+    <link rel="apple-touch-icon" sizes="144x144" href="#" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="-css/debug.css" />
+  </head>
+  <body>
+    <!--NAV-->
+    <nav class="nav collapsible" id="top">
+      <a aria-label="Website Logo" class="nav__brand" href="index.html"
+        ><img src="images/narroma-bridge-seafood-logo.jpeg" alt=""
+      /></a>
+      <span class="icon-container">
+        <picture>
+          <img
+            src="images/fishing-hook.png"
+            alt=""
+            class="icon icon--white collapsible__chevron"
+          />
+        </picture>
+      </span>
+      <ul class="list nav__list collapsible__content">
+        <li class="nav__item">
+          <a href="tel:02-4476-1586">Call Us</a>
+        </li>
+        <li class="nav__item">
+          <a href="location.html">Parking</a>
+        </li>
+        <li class="nav__item">
+          <a href="fresh-seafood.html">Seafood</a>
+        </li>
+        <li class="nav__item">
+          <a href="about.html">About</a>
+        </li>
+        <li class="nav__item">
+          <a href="index.html#footer">Hours</a>
+        </li>
+      </ul>
+    </nav>
+    <!--Hero-->
+    <section class="block block--skewed-left hero">
+      <div class="container grid grid--1x2">
+        <header class="block__header hero__content">
+          <h1 data-aos="zoom-in-up" class="block__heading">
+            Fresh SouthCoast Seafood!
+          </h1>
+          <p class="hero__tagline">
+            Caught weekly and cleaned the same day, available fresh in store
+            NOW!
+          </p>
+          <a href="fresh-seafood.html" class="btn btn--secondary btn--stretched"
+            >View Seafood</a
+          >
+        </header>
+        <picture data-aos="zoom-in">
+          <!--<source
+            type="image/webp"
+            srcset="images/banner.webp 1x, images/banner@2x.webp 2x"
+          />
+          <source
+            type="image/png"
+            srcset="images/banner.png 1x, images/banner@2x.png 2x"
+          />  -->
+          <img class="hero__image" src="images/mussels.png" alt="" />
+        </picture>
+      </div>
+    </section>
+    <!--Domain Block -->
+    <section
+      data-aos="zoom-in-up"
+      class="block container block-domain domain-btn"
+    >
+      <header class="block__header">
+        <h2>Keep up to date with our FRESH catches!</h2>
+        <p>
+          As soon as the next catch of fresh seafood comes in you will be the
+          first to know!
+        </p>
+      </header>
+      <!-- Email Form -->
+      <form
+        class="login-form"
+        id="fs-frm"
+        name="Fresh-fish-list"
+        accept-charset="utf-8"
+        action="https://formspree.io/f/xknkydwd"
+        method="post"
+      >
+        <input type="hidden" name="user-id" value="1234" />
+        <div class="align-form">
+          <fieldset id="fs-frm-inputs" class="email">
+            <label for="full-name"></label>
+            <input
+              class="input-fields"
+              type="text"
+              name="name"
+              id="full-name"
+              placeholder="name"
+              required=""
+              maxlength="30"
+            />
+            <label for="email-address"></label>
+            <input
+              class="input-fields"
+              type="email"
+              name="_replyto"
+              id="email-address"
+              placeholder="email"
+              required=""
+            />
+          </fieldset>
+          <input
+            class="btn btn--secondary btn--stretched"
+            type="submit"
+            value="Send Message"
+          />
+        </div>
+      </form>
+    </section>
+    <!-- Plans Block -->
+    <section data-aos="fade-up" class="block container block-plans">
+      <div class="grid grid--1x3">
+        <div class="plan">
+          <a href="fresh-seafood.html#narooma-oysters">
+            <div class="card card--secondary">
+              <header class="card__header">
+                <h3 class="plan__name">Special</h3>
+                <span class="plan__price">$16.50</span>
+                <span class="plan__billing-cycle">/ 1 Dozen</span>
+                <span class="badge badge--secondary badge--small"
+                  >Prices Vary</span
+                >
+                <span class="plan__description">Fresh Narooma Oyster Pack</span>
+              </header>
+              <div class="card__body card-1">
+                <p class="btn-link">View More</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="plan plan--popular">
+          <a href="fresh-seafood.html#king-fish">
+            <div class="card card--primary">
+              <header class="card__header">
+                <h3 class="plan__name">Special</h3>
+                <span class="plan__price">$38.90</span>
+                <span class="plan__billing-cycle">/ Kg</span>
+                <span class="badge badge--primary badge--small">20% OFF</span>
+                <span class="plan__description">Locally Caught Kingfish</span>
+              </header>
+              <div class="card__body card-2">
+                <p class="btn-link">View More</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="plan">
+          <a href="fresh-seafood.html#eastern-rock-lobster">
+            <div class="card card--secondary">
+              <header class="card__header">
+                <h3 class="plan__name">Starting at -</h3>
+                <span class="plan__price">$89.95</span>
+                <span class="plan__billing-cycle">/ Kg</span>
+                <span class="badge badge--secondary badge--small"
+                  >Prices vary</span
+                >
+                <span class="plan__description">Locally Caught Lobster</span>
+              </header>
+              <div class="card__body card-3">
+                <p class="btn-link">View More</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Feature Block -->
+    <section class="block container">
+      <header class="block__header">
+        <h2>Locally Owned & Operated Family Business</h2>
+        <p>Serving locals in Narooma and Travellers for over 30 years!</p>
+      </header>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="fade-right">
+          <span class="icon-container">
+            <picture class="icon icon--primary">
+              <img src="images/fish.png" alt="" class="hero__image" />
+            </picture>
+          </span>
+          <h3 class="feature__heading">Fresh Local Fish</h3>
+          <p>
+            We are tooled up to fish for many species to give our clients a
+            large range of freshly caught fish year round. Some species are
+            seasonal contact us to see our stock.
+          </p>
+          <br />
+          <a href="fresh-seafood.html" class="link-arrow">Learn More</a>
+        </div>
+        <picture data-aos="zoom-in-left">
+          <img class="feature__image" src="images/ben-fish.jpeg" alt="" />
+        </picture>
+      </article>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="fade-up">
+          <span class="icon-container">
+            <picture class="icon icon--primary">
+              <img src="images/fishing-boat.png" alt="" class="hero__image" />
+            </picture>
+          </span>
+          <h3 class="feature__heading">Sustainable Licensed Fishing</h3>
+          <p>
+            We operate under the Australian Fisheries Management Authority
+            (AFMA) who set Total Allowable Catch (TAC) which form a Kilo based
+            number for all our major species.
+          </p>
+          <br />
+          <a href="#" class="link-arrow">Learn More</a>
+        </div>
+        <picture>
+          <!-- 
+      <source
+        type="image/webp"
+        srcset="images/fast.webp 1x, images/fast@2x.webp 2x"
+      />
+      <source 
+        type="image/jpg"
+        srcset="images/fast.jpg 1x, images/fast@2x.jpg 2x"
+      /> -->
+          <img
+            class="feature__image"
+            src="images/fishing-boat-ben.jpeg"
+            alt=""
+          />
+        </picture>
+      </article>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="fade-up">
+          <span class="icon-container">
+            <picture class="icon icon--primary">
+              <img class="hero__image" src="images/lobster.png" alt="" />
+            </picture>
+          </span>
+          <h3 class="feature__heading">Eastern Rock Lobster</h3>
+          <p>
+            The South Coast is known for some of the best eating Crayfish across
+            the world. If you want one fresh live from the pot come see us
+            today. We supply wholesale Eastern Lobsters and occasionally have a
+            Southern or two available at the shop.
+          </p>
+          <br />
+          <a href="fresh-seafood.html" class="link-arrow">Learn More</a>
+        </div>
+        <picture>
+          <!-- 
+      <source
+        type="image/webp"
+        srcset="images/fast.webp 1x, images/fast@2x.webp 2x"
+      />
+      <source 
+        type="image/jpg"
+        srcset="images/fast.jpg 1x, images/fast@2x.jpg 2x"
+      /> -->
+          <img
+            class="feature__image"
+            src="images/lobster-narooma-bridge-seafood.jpeg"
+            alt=""
+          />
+        </picture>
+      </article>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="fade-left">
+          <span class="icon-container">
+            <picture class="icon icon--primary">
+              <img class="hero__image" src="images/clown-fish.png" alt="" />
+            </picture>
+          </span>
+          <h3 class="feature__heading">Seafood Recipes</h3>
+          <p>
+            Seafood is best shared amongst Family & Friends. Here are some easy
+            to prepare dishes using our local produce.
+          </p>
+          <br />
+          <a href="fresh-seafood.html" class="link-arrow">Learn More</a>
+        </div>
+        <picture data-aos="fade-right">
+          <!-- 
+      <source
+        type="image/webp"
+        srcset="images/fast.webp 1x, images/fast@2x.webp 2x"
+      />
+      <source 
+        type="image/jpg"
+        srcset="images/fast.jpg 1x, images/fast@2x.jpg 2x"
+      /> -->
+          <img src="images/seafood-plate.png" alt="" class="feature__image" />
+        </picture>
+      </article>
+    </section>
+    <!-- Showcase Block -->
+    <section class="block block--skewed-right block-showcase">
+      <header class="block__header">
+        <h2>Narooma Resident "Johnson" the Seal Getting Some Lunch</h2>
+      </header>
+      <div class="container grid grid--1x2">
+        <div class="video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/wWbuwAr9kPw"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <ul class="list list--showcase" data-aos="fade-up">
+          <li>
+            <div class="media">
+              <span class="icon-container">
+                <picture class="icon icon--primary">
+                  <img src="images/seal.png" alt="" class="hero__image" />
+                </picture>
+              </span>
+              <div class="media__body">
+                <h3 class="media__title">Come see the local Seal "Johnson"</h3>
+                <p>
+                  A special relationship has developed between a seal named
+                  <a
+                    target="blank_"
+                    href="https://www.smh.com.au/environment/conservation/narooma-seafood-shop-owners-special-relationship-with-seal-called-johnson-20160418-go92yk.html"
+                    >"Johnson"</a
+                  >
+                  and Sophie Wiersema who operates Narooma Bridge Seafoods.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <span class="icon-container">
+                <picture class="icon icon--primary">
+                  <img src="images/oyster.png" alt="" class="hero__image" />
+                </picture>
+              </span>
+              <div class="media__body">
+                <h3 class="media__title">
+                  Freshly Shucked Eurobodalla Oysters
+                </h3>
+                <p>
+                  We supply local Oysters each year at the
+                  <a
+                    target="blank_"
+                    href="https://www.naroomaoysterfestival.com/"
+                    >Narooma Oyster Festival.</a
+                  >
+                  Both locals and travellers alike stop in for a 6pack
+                  frequently.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <span class="icon-container">
+                <picture class="icon icon--primary">
+                  <img src="images/crab.png" alt="" class="hero__image" />
+                </picture>
+              </span>
+              <div class="media__body">
+                <h3 class="media__title">Fresh Crayfish year round</h3>
+                <p>
+                  We have one of the largest quota for local South Coast
+                  Crayfish in the Eurobodalla and can supply customers and
+                  restaurants year round.
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Testemonials Block -->
+    <section class="block" data-aos="zoom-in">
+      <header class="block__header">
+        <h2>What our Customers are Saying</h2>
+        <p>
+          We really appreciate customers who are kind enough to leave a google
+          review.
+        </p>
+      </header>
+      <div class="container">
+        <div class="card testimonial">
+          <div class="grid grid--1x2">
+            <div class="testimonial__image">
+              <img
+                src="images/seafood-platter.png"
+                alt="A happy, smiling customer"
+              />
+              <span class="icon-container">
+                <picture class="icon icon--primary quote__line">
+                  <img src="images/quotes.png" alt="" class="hero__image" />
+                </picture>
+              </span>
+            </div>
+            <blockquote class="quote">
+              <p class="quote__text">
+                The freshest prawns and oysters in this part of town! The prawns
+                are always so succulent and sweet. Nothing like enjoying fresh
+                seafood by the waterside. Great, friendly service. Only thing is
+                parking may be challenging at times. A definite must when in
+                Narooma.
+              </p>
+              <div>
+                <div class="media">
+                  <div class="media__body">
+                    <h3 class="media__title quote__author">Christina Ng</h3>
+                    <a
+                      class="quote__organization"
+                      target="blank_"
+                      href="https://www.google.com/search?q=narooma+bridge+seafoods&oq=narooma+bridge+seafoods&aqs=chrome..69i57j69i60l3.4872j0j4&sourceid=chrome&ie=UTF-8#lrd=0x6b3e17579bfab5eb:0x5e564512303a5e69,1,,,"
+                      >Google reviews</a
+                    >
+                    <div class="media__image stars">
+                      <span class="icon-container">
+                        <picture class="icon icon--primary">
+                          <img
+                            src="images/star.png"
+                            alt=""
+                            class="stars-size"
+                          />
+                        </picture>
+                        <picture class="icon icon--primary">
+                          <img
+                            src="images/star.png"
+                            alt=""
+                            class="stars-size"
+                          />
+                        </picture>
+                        <picture class="icon icon--primary">
+                          <img
+                            src="images/star.png"
+                            alt=""
+                            class="stars-size"
+                          />
+                        </picture>
+                        <picture class="icon icon--primary">
+                          <img
+                            src="images/star.png"
+                            alt=""
+                            class="stars-size"
+                          />
+                        </picture>
+                        <picture class="icon icon--primary">
+                          <img
+                            src="images/star.png"
+                            alt=""
+                            class="stars-size"
+                          />
+                        </picture>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Callout -->
+    <div class="container">
+      <div class="callout callout--primary callout-signup">
+        <div class="grid grid--1x2">
+          <div class="callout__content">
+            <h2 class="callout__heading">Book an order over the phone.</h2>
+            <p>
+              We get busy... if you call us we can pre-pack an order for you
+              before you come into the shop.
+            </p>
+          </div>
+          <a
+            target="_blank"
+            href="tel:02-4476-1586"
+            class="btn btn--secondary btn--stretched"
+            >Call Now</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- Footer Block -->
+    <footer class="block footer" id="footer">
+      <div class="container grid footer__sections">
+        <section class="collapsible footer__section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Opening Hours</h2>
+            <span class="icon-container">
+              <picture>
+                <img
+                  src="images/fishing-hook.png"
+                  alt=""
+                  class="icon icon--white collapsible__chevron"
+                />
+              </picture>
+            </span>
+          </div>
+          <div class="collapsible__content">
+            <ul class="list list__space">
+              <li class="list__space"><p>MON : 8am - 6pm</p></li>
+              <li class="list__space"><p>TUE : 8am - 6pm</p></li>
+              <li class="list__space"><p>WED : 8am - 6pm</p></li>
+              <li class="list__space"><p>THU : 8am - 6pm</p></li>
+              <li class="list__space"><p>FRI : 8am - 6pm</p></li>
+              <li class="list__space"><p>SAT : 8am - 6pm</p></li>
+              <li class="list__space"><p>SUN : 9am - 5pm</p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Contact Us</h2>
+            <span class="icon-container">
+              <picture>
+                <img
+                  src="images/fishing-hook.png"
+                  alt=""
+                  class="icon icon--white collapsible__chevron"
+                />
+              </picture>
+            </span>
+          </div>
+          <div class="collapsible__content">
+            <ul class="list list__space">
+              <li class="list__space">
+                <a target="_blank" href="location.html"
+                  >Boatshed Princes Highway 2546 Narooma, NSW, Australia</a
+                >
+              </li>
+              <li class="list__space">
+                <a href="tel:02-4476-1586">Phone: (02) 4476 1586</a>
+              </li>
+              <li class="list__space">
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/Narooma-Bridge-Seafoods-384726911665737/"
+                  >Facebook Msg</a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Support</h2>
+            <span class="icon-container">
+              <picture>
+                <img
+                  src="images/fishing-hook.png"
+                  alt=""
+                  class="icon icon--white collapsible__chevron"
+                />
+              </picture>
+            </span>
+          </div>
+          <div class="collapsible__content">
+            <ul class="list list__space">
+              <li class="list__space">
+                <a href="location.html">Location</a>
+              </li>
+              <li class="list__space">
+                <a href="faq-page.html">FAQ</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <div class="footer__brand">
+          <a aria-label="Website Logo" href="#top"
+            ><img src="images/narroma-bridge-seafood-logo.jpeg" alt="" />
+          </a>
+          <p class="footer__copyright">Copyright Narooma Bridge Seafood 2021</p>
+          <a href="#top"><p class="footer__copyright">WebDesign.</p></a>
+        </div>
+      </div>
+    </footer>
+    <!-- JS Scripts -->
+    <script src="/narooma-bridge-seafood/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
+
+<!--test-->
