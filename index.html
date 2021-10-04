@@ -3,26 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, archive" />
+    <meta property="og:title" content="Narooma Bridge Seafoods" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content="Providing FRESH Australian grown local Seafood to the South Coast for over 30 yeears."
+    />
+    <meta
+      property="og:image"
+      content="https://scontent.fsyd7-1.fna.fbcdn.net/v/t1.6435-9/75552952_1447438985394519_6520586754280390656_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=e3f864&_nc_ohc=C5FvgD9H2b0AX8mwbLj&tn=LiKe6o3RH4fACLzW&_nc_ht=scontent.fsyd7-1.fna&oh=e27ac93b3d2bb5f6fa3c22a0a39d112b&oe=617C885A"
+    />
     <meta
       name="description"
       content="The freshest Seafood on the South-Coast Australia."
     />
-    <meta property="og:title" content="Narooma Bridge Seafoods" />
-    <meta
-      property="og:description"
-      content="Narooma Bridge Seafood is a local Eurobodalla business supplying frsh fish and lobster to locals and travellers."
-    />
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:image"
-      content="images/Narooma-bridge-seafood-shop.jpeg"
-    />
     <meta property="og:url" content="" />
-    <title>Narooma Bridge Seafood</title>
+    <title>Narooma Bridge Seafood - Supplying Fresh Australian Seafood.</title>
     <link rel="icon" href="#" />
     <link rel="apple-touch-icon" sizes="72x72" href="#" />
     <link rel="apple-touch-icon" sizes="144x144" href="#" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="shortcut icon" type="image/jpg" href="/images/lobster-ico.ico" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
@@ -30,18 +32,17 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link rel="stylesheet" href="-css/debug.css" />
   </head>
   <body>
     <!--NAV-->
     <nav class="nav collapsible" id="top">
-      <a aria-label="Website Logo" class="nav__brand" href="index.html"
-        ><img src="images/narroma-bridge-seafood-logo.jpeg" alt=""
+      <a class="nav__brand" href="index.html"
+        ><img src="images/narooma-bridge-seafood-logo.jpeg" alt="Company Logo"
       /></a>
       <span class="icon-container">
         <picture>
           <img
-            src="images/fishing-hook.png"
+            src="images/fishing-rod.png"
             alt=""
             class="icon icon--white collapsible__chevron"
           />
@@ -73,8 +74,7 @@
             Fresh SouthCoast Seafood!
           </h1>
           <p class="hero__tagline">
-            Caught weekly and cleaned the same day, available fresh in store
-            NOW!
+            Locally caught in Narooma waters 100% Australian seafood.
           </p>
           <a href="fresh-seafood.html" class="btn btn--secondary btn--stretched"
             >View Seafood</a
@@ -89,7 +89,11 @@
             type="image/png"
             srcset="images/banner.png 1x, images/banner@2x.png 2x"
           />  -->
-          <img class="hero__image" src="images/mussels.png" alt="" />
+          <img
+            class="hero__image"
+            src="images/Lobster-no-background.png"
+            alt="Fresh Mussels"
+          />
         </picture>
       </div>
     </section>
@@ -140,7 +144,7 @@
           <input
             class="btn btn--secondary btn--stretched"
             type="submit"
-            value="Send Message"
+            value="Subscribe"
           />
         </div>
       </form>
@@ -187,7 +191,7 @@
             <div class="card card--secondary">
               <header class="card__header">
                 <h3 class="plan__name">Starting at -</h3>
-                <span class="plan__price">$89.95</span>
+                <span class="plan__price">$80</span>
                 <span class="plan__billing-cycle">/ Kg</span>
                 <span class="badge badge--secondary badge--small"
                   >Prices vary</span
@@ -217,15 +221,19 @@
           </span>
           <h3 class="feature__heading">Fresh Local Fish</h3>
           <p>
-            We are tooled up to fish for many species to give our clients a
+            We are geared up to fish for many species to give our clients a
             large range of freshly caught fish year round. Some species are
             seasonal contact us to see our stock.
           </p>
           <br />
-          <a href="fresh-seafood.html" class="link-arrow">Learn More</a>
+          <a href="fresh-seafood.html" class="link-arrow">Local Fish</a>
         </div>
         <picture data-aos="zoom-in-left">
-          <img class="feature__image" src="images/ben-fish.jpeg" alt="" />
+          <img
+            class="feature__image"
+            src="images/ben-fish.jpeg"
+            alt="Ben Mcculloch holding a large fish"
+          />
         </picture>
       </article>
       <article class="grid grid--1x2 feature">
@@ -242,7 +250,7 @@
             number for all our major species.
           </p>
           <br />
-          <a href="#" class="link-arrow">Learn More</a>
+          <a href="#" class="link-arrow">About Licensing</a>
         </div>
         <picture>
           <!-- 
@@ -257,7 +265,7 @@
           <img
             class="feature__image"
             src="images/fishing-boat-ben.jpeg"
-            alt=""
+            alt="Ben Mcculloch driving his fishing boat"
           />
         </picture>
       </article>
@@ -265,18 +273,22 @@
         <div class="feature__content" data-aos="fade-up">
           <span class="icon-container">
             <picture class="icon icon--primary">
-              <img class="hero__image" src="images/lobster.png" alt="" />
+              <img
+                class="hero__image"
+                src="images/lobster.png"
+                alt="Eastern Rock Lobster"
+              />
             </picture>
           </span>
           <h3 class="feature__heading">Eastern Rock Lobster</h3>
           <p>
-            The South Coast is known for some of the best eating Crayfish across
+            The South Coast is known for some of the best eating Lobster across
             the world. If you want one fresh live from the pot come see us
-            today. We supply wholesale Eastern Lobsters and occasionally have a
-            Southern or two available at the shop.
+            today. We also supply wholesale Eastern Lobsters and occasionally
+            have a Southern or two available at the shop.
           </p>
           <br />
-          <a href="fresh-seafood.html" class="link-arrow">Learn More</a>
+          <a href="fresh-seafood.html" class="link-arrow">Lobster Types</a>
         </div>
         <picture>
           <!-- 
@@ -291,7 +303,7 @@
           <img
             class="feature__image"
             src="images/lobster-narooma-bridge-seafood.jpeg"
-            alt=""
+            alt="Eastern Rock Lobster"
           />
         </picture>
       </article>
@@ -308,7 +320,7 @@
             to prepare dishes using our local produce.
           </p>
           <br />
-          <a href="fresh-seafood.html" class="link-arrow">Learn More</a>
+          <a href="fresh-seafood.html" class="link-arrow">See Recipes</a>
         </div>
         <picture data-aos="fade-right">
           <!-- 
@@ -320,7 +332,11 @@
         type="image/jpg"
         srcset="images/fast.jpg 1x, images/fast@2x.jpg 2x"
       /> -->
-          <img src="images/seafood-plate.png" alt="" class="feature__image" />
+          <img
+            src="images/seafood-plate.png"
+            alt="Fresh Seafood Plate"
+            class="feature__image"
+          />
         </picture>
       </article>
     </section>
@@ -366,7 +382,11 @@
             <div class="media">
               <span class="icon-container">
                 <picture class="icon icon--primary">
-                  <img src="images/oyster.png" alt="" class="hero__image" />
+                  <img
+                    src="images/oyster.png"
+                    alt="Fresh Local Narooma Oysters"
+                    class="hero__image"
+                  />
                 </picture>
               </span>
               <div class="media__body">
@@ -380,8 +400,8 @@
                     href="https://www.naroomaoysterfestival.com/"
                     >Narooma Oyster Festival.</a
                   >
-                  Both locals and travellers alike stop in for a 6pack
-                  frequently.
+                  Both locals and travellers alike stop into the shop for 1
+                  dozen today.
                 </p>
               </div>
             </div>
@@ -394,11 +414,17 @@
                 </picture>
               </span>
               <div class="media__body">
-                <h3 class="media__title">Fresh Crayfish year round</h3>
+                <h3 class="media__title">Fresh Lobster Dec-May</h3>
                 <p>
                   We have one of the largest quota for local South Coast
-                  Crayfish in the Eurobodalla and can supply customers and
-                  restaurants year round.
+                  Crayfish in the Eurobodalla. We primarily supply local
+                  customers and
+                  <a
+                    target="blank"
+                    href="https://www.sbs.com.au/news/chinese-new-year-sparks-surge-in-demand-for-australian-lobster-and-abalone/174705e9-e9f8-4fb5-8b79-4f7e162b9865"
+                  >
+                    Overseas Restaurants.
+                  </a>
                 </p>
               </div>
             </div>
@@ -419,15 +445,8 @@
         <div class="card testimonial">
           <div class="grid grid--1x2">
             <div class="testimonial__image">
-              <img
-                src="images/seafood-platter.png"
-                alt="A happy, smiling customer"
-              />
-              <span class="icon-container">
-                <picture class="icon icon--primary quote__line">
-                  <img src="images/quotes.png" alt="" class="hero__image" />
-                </picture>
-              </span>
+              <img src="images/seafood-platter.png" alt="Google Review Image" />
+              <span class="icon-container"> </span>
             </div>
             <blockquote class="quote">
               <p class="quote__text">
@@ -523,7 +542,7 @@
             <span class="icon-container">
               <picture>
                 <img
-                  src="images/fishing-hook.png"
+                  src="images/fishing-rod.png"
                   alt=""
                   class="icon icon--white collapsible__chevron"
                 />
@@ -532,13 +551,13 @@
           </div>
           <div class="collapsible__content">
             <ul class="list list__space">
-              <li class="list__space"><p>MON : 8am - 6pm</p></li>
-              <li class="list__space"><p>TUE : 8am - 6pm</p></li>
-              <li class="list__space"><p>WED : 8am - 6pm</p></li>
-              <li class="list__space"><p>THU : 8am - 6pm</p></li>
-              <li class="list__space"><p>FRI : 8am - 6pm</p></li>
-              <li class="list__space"><p>SAT : 8am - 6pm</p></li>
-              <li class="list__space"><p>SUN : 9am - 5pm</p></li>
+              <li class="list__space"><p>MON : 8am - 4pm</p></li>
+              <li class="list__space"><p>TUE : 8am - 4pm</p></li>
+              <li class="list__space"><p>WED : 8am - 4pm</p></li>
+              <li class="list__space"><p>THU : 8am - 4pm</p></li>
+              <li class="list__space"><p>FRI : 8am - 4pm</p></li>
+              <li class="list__space"><p>SAT : 8am - 4pm</p></li>
+              <li class="list__space"><p>SUN : 9am - 3pm</p></li>
             </ul>
           </div>
         </section>
@@ -548,7 +567,7 @@
             <span class="icon-container">
               <picture>
                 <img
-                  src="images/fishing-hook.png"
+                  src="images/fishing-rod.png"
                   alt=""
                   class="icon icon--white collapsible__chevron"
                 />
@@ -558,7 +577,7 @@
           <div class="collapsible__content">
             <ul class="list list__space">
               <li class="list__space">
-                <a target="_blank" href="location.html"
+                <a href="location.html"
                   >Boatshed Princes Highway 2546 Narooma, NSW, Australia</a
                 >
               </li>
@@ -568,6 +587,8 @@
               <li class="list__space">
                 <a
                   target="_blank"
+                  rel="noopener"
+                  rel="noreferrer"
                   href="https://www.facebook.com/Narooma-Bridge-Seafoods-384726911665737/"
                   >Facebook Msg</a
                 >
@@ -581,7 +602,7 @@
             <span class="icon-container">
               <picture>
                 <img
-                  src="images/fishing-hook.png"
+                  src="images/fishing-rod.png"
                   alt=""
                   class="icon icon--white collapsible__chevron"
                 />
@@ -594,22 +615,35 @@
                 <a href="location.html">Location</a>
               </li>
               <li class="list__space">
+                <a href="faq-page.html">Wholesale</a>
+              </li>
+              <li class="list__space">
                 <a href="faq-page.html">FAQ</a>
               </li>
             </ul>
           </div>
         </section>
         <div class="footer__brand">
-          <a aria-label="Website Logo" href="#top"
-            ><img src="images/narroma-bridge-seafood-logo.jpeg" alt="" />
+          <a href="#top"
+            ><img
+              src="images/narooma-bridge-seafood-logo.jpeg"
+              alt="Company Logo"
+            />
           </a>
           <p class="footer__copyright">Copyright Narooma Bridge Seafood 2021</p>
           <a href="#top"><p class="footer__copyright">WebDesign Company.</p></a>
         </div>
       </div>
     </footer>
+    <!-- Return to top button -->
+    <a class="top-link hide" href="" id="js-top">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
+        <path d="M12 6H0l6-6z" />
+      </svg>
+      <span class="screen-reader-text">Back to top</span>
+    </a>
     <!-- JS Scripts -->
-    <script src="/narooma-bridge-seafood/main.js"></script>
+    <script src="main.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
