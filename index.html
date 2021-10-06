@@ -19,6 +19,7 @@
       content="The freshest Seafood on the South-Coast Australia."
     />
     <meta property="og:url" content="" />
+    <meta name="theme-color" content="#3fa680" />
     <title>Narooma Bridge Seafood - Supplying Fresh Australian Seafood.</title>
     <link rel="icon" href="#" />
     <link rel="apple-touch-icon" sizes="72x72" href="#" />
@@ -34,7 +35,6 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
-    <!--NAV-->
     <nav class="nav collapsible" id="top">
       <a class="nav__brand" href="index.html"
         ><img src="images/narooma-bridge-seafood-logo.webp" alt="Company Logo"
@@ -49,24 +49,13 @@
         </picture>
       </span>
       <ul class="list nav__list collapsible__content">
-        <li class="nav__item">
-          <a href="tel:02-4476-1586">Call Us</a>
-        </li>
-        <li class="nav__item">
-          <a href="location.html">Parking</a>
-        </li>
-        <li class="nav__item">
-          <a href="fresh-seafood.html">Seafood</a>
-        </li>
-        <li class="nav__item">
-          <a href="about.html">About</a>
-        </li>
-        <li class="nav__item">
-          <a href="index.html#footer">Hours</a>
-        </li>
+        <li class="nav__item"><a href="tel:02-4476-1586">Call Us</a></li>
+        <li class="nav__item"><a href="location.html">Parking</a></li>
+        <li class="nav__item"><a href="fresh-seafood.html">Seafood</a></li>
+        <li class="nav__item"><a href="about.html">About</a></li>
+        <li class="nav__item"><a href="index.html#footer">Hours</a></li>
       </ul>
     </nav>
-    <!--Hero-->
     <section class="block block--skewed-left hero">
       <div class="container grid grid--1x2">
         <header class="block__header hero__content">
@@ -81,14 +70,6 @@
           >
         </header>
         <picture data-aos="zoom-in">
-          <!--<source
-            type="image/webp"
-            srcset="images/banner.webp 1x, images/banner@2x.webp 2x"
-          />
-          <source
-            type="image/png"
-            srcset="images/banner.png 1x, images/banner@2x.png 2x"
-          />  -->
           <img
             class="hero__image"
             src="images/Lobster-no-background.png"
@@ -97,7 +78,6 @@
         </picture>
       </div>
     </section>
-    <!--Domain Block -->
     <section
       data-aos="zoom-in-up"
       class="block container block-domain domain-btn"
@@ -125,14 +105,12 @@
             <img src="/images/instagram.png" alt="instagram logo" /> </picture
         ></a>
       </header>
-      <!-- Email Form -->
     </section>
-    <!-- Plans Block -->
     <section data-aos="fade-up" class="block container block-plans">
       <div class="grid grid--1x3">
         <div class="plan">
-          <a href="fresh-seafood.html#narooma-oysters">
-            <div class="card card--secondary">
+          <a href="fresh-seafood.html#narooma-oysters"
+            ><div class="card card--secondary">
               <header class="card__header">
                 <h3 class="plan__name">Special</h3>
                 <span class="plan__price">$16.50</span>
@@ -149,13 +127,15 @@
           </a>
         </div>
         <div class="plan plan--popular">
-          <a href="fresh-seafood.html#kingfish">
-            <div class="card card--primary">
+          <a href="fresh-seafood.html#kingfish"
+            ><div class="card card--primary">
               <header class="card__header">
                 <h3 class="plan__name">Special</h3>
                 <span class="plan__price">$38.90</span>
                 <span class="plan__billing-cycle">/ Kg</span>
-                <span class="badge badge--primary badge--small">20% OFF</span>
+                <span class="badge badge--primary badge--small"
+                  >Prices vary</span
+                >
                 <span class="plan__description">Locally Caught Kingfish</span>
               </header>
               <div class="card__body card-2">
@@ -165,11 +145,11 @@
           </a>
         </div>
         <div class="plan">
-          <a href="fresh-seafood.html#eastern-rock-lobster-cooked">
-            <div class="card card--secondary">
+          <a href="fresh-seafood.html#eastern-rock-lobster-cooked"
+            ><div class="card card--secondary">
               <header class="card__header">
                 <h3 class="plan__name">Starting at -</h3>
-                <span class="plan__price">$80</span>
+                <span class="plan__price">$80.00</span>
                 <span class="plan__billing-cycle">/ Kg</span>
                 <span class="badge badge--secondary badge--small"
                   >Prices vary</span
@@ -184,7 +164,6 @@
         </div>
       </div>
     </section>
-    <!-- Feature Block -->
     <section class="block container">
       <header class="block__header">
         <h2>Locally Owned & Operated Family Business</h2>
@@ -224,7 +203,12 @@
         <div class="feature__content" data-aos="fade-up">
           <span class="icon-container">
             <picture class="icon icon--primary">
-              <img src="images/fishing-boat.png" alt="" class="hero__image" />
+              <img
+                src="images/fishing-boat.png"
+                alt=""
+                class="hero__image"
+                loading="lazy"
+              />
             </picture>
           </span>
           <h3 class="feature__heading">Sustainable Licensed Fishing</h3>
@@ -243,19 +227,11 @@
           >
         </div>
         <picture>
-          <!-- 
-      <source
-        type="image/webp"
-        srcset="images/fast.webp 1x, images/fast@2x.webp 2x"
-      />
-      <source 
-        type="image/jpg"
-        srcset="images/fast.jpg 1x, images/fast@2x.jpg 2x"
-      /> -->
           <img
             class="feature__image"
             src="images/fishing-boat-ben.webp"
             alt="Ben Mcculloch driving his fishing boat"
+            loading="lazy"
           />
         </picture>
       </article>
@@ -267,6 +243,7 @@
                 class="hero__image"
                 src="images/lobster.png"
                 alt="Eastern Rock Lobster"
+                loading="lazy"
               />
             </picture>
           </span>
@@ -281,19 +258,11 @@
           <a href="fresh-seafood.html" class="link-arrow">Lobster Types</a>
         </div>
         <picture>
-          <!-- 
-      <source
-        type="image/webp"
-        srcset="images/fast.webp 1x, images/fast@2x.webp 2x"
-      />
-      <source 
-        type="image/jpg"
-        srcset="images/fast.jpg 1x, images/fast@2x.jpg 2x"
-      /> -->
           <img
             class="feature__image"
             src="images/lobster-narooma-bridge-seafood.jpeg"
             alt="Eastern Rock Lobster"
+            loading="lazy"
           />
         </picture>
       </article>
@@ -301,7 +270,12 @@
         <div class="feature__content" data-aos="fade-left">
           <span class="icon-container">
             <picture class="icon icon--primary">
-              <img class="hero__image" src="images/clown-fish.png" alt="" />
+              <img
+                class="hero__image"
+                src="images/clown-fish.png"
+                alt=""
+                loading="lazy"
+              />
             </picture>
           </span>
           <h3 class="feature__heading">Seafood Recipes</h3>
@@ -313,24 +287,15 @@
           <a href="fresh-seafood.html" class="link-arrow">See Recipes</a>
         </div>
         <picture data-aos="fade-right">
-          <!-- 
-      <source
-        type="image/webp"
-        srcset="images/fast.webp 1x, images/fast@2x.webp 2x"
-      />
-      <source 
-        type="image/jpg"
-        srcset="images/fast.jpg 1x, images/fast@2x.jpg 2x"
-      /> -->
           <img
             src="images/seafood-plate.webp"
             alt="Fresh Seafood Plate"
             class="feature__image"
+            loading="lazy"
           />
         </picture>
       </article>
     </section>
-    <!-- Showcase Block -->
     <section class="block block--skewed-right block-showcase">
       <header class="block__header">
         <h2>Narooma Resident "Johnson" the Seal Getting Some Lunch</h2>
@@ -341,6 +306,7 @@
             width="560"
             height="315"
             src="https://www.youtube.com/embed/wWbuwAr9kPw"
+            loading="lazy"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
@@ -351,7 +317,12 @@
             <div class="media">
               <span class="icon-container">
                 <picture class="icon icon--primary">
-                  <img src="images/seal.png" alt="" class="hero__image" />
+                  <img
+                    src="images/seal.png"
+                    alt=""
+                    class="hero__image"
+                    loading="lazy"
+                  />
                 </picture>
               </span>
               <div class="media__body">
@@ -376,6 +347,7 @@
                     src="images/oyster.png"
                     alt="Fresh Local Narooma Oysters"
                     class="hero__image"
+                    loading="lazy"
                   />
                 </picture>
               </span>
@@ -400,7 +372,12 @@
             <div class="media">
               <span class="icon-container">
                 <picture class="icon icon--primary">
-                  <img src="images/crab.png" alt="" class="hero__image" />
+                  <img
+                    src="images/crab.png"
+                    alt=""
+                    class="hero__image"
+                    loading="lazy"
+                  />
                 </picture>
               </span>
               <div class="media__body">
@@ -422,7 +399,6 @@
         </ul>
       </div>
     </section>
-    <!-- Testemonials Block -->
     <section class="block" data-aos="zoom-in">
       <header class="block__header">
         <h2>What our Customers are Saying</h2>
@@ -438,6 +414,7 @@
               <img
                 src="images/russel-facebook-review.webp"
                 alt="Google Review Image"
+                loading="lazy"
               />
               <span class="icon-container"> </span>
             </div>
@@ -476,6 +453,7 @@
                             src="images/star.png"
                             alt=""
                             class="stars-size"
+                            loading="lazy"
                           />
                         </picture>
                         <picture class="icon icon--primary">
@@ -483,6 +461,7 @@
                             src="images/star.png"
                             alt=""
                             class="stars-size"
+                            loading="lazy"
                           />
                         </picture>
                         <picture class="icon icon--primary">
@@ -490,6 +469,7 @@
                             src="images/star.png"
                             alt=""
                             class="stars-size"
+                            loading="lazy"
                           />
                         </picture>
                         <picture class="icon icon--primary">
@@ -497,6 +477,7 @@
                             src="images/star.png"
                             alt=""
                             class="stars-size"
+                            loading="lazy"
                           />
                         </picture>
                         <picture class="icon icon--primary">
@@ -504,6 +485,7 @@
                             src="images/star.png"
                             alt=""
                             class="stars-size"
+                            loading="lazy"
                           />
                         </picture>
                       </span>
@@ -516,7 +498,6 @@
         </div>
       </div>
     </section>
-    <!-- Callout -->
     <div class="container">
       <div class="callout callout--primary callout-signup">
         <div class="grid grid--1x2">
@@ -536,7 +517,6 @@
         </div>
       </div>
     </div>
-    <!-- Footer Block -->
     <footer class="block footer" id="footer">
       <div class="container grid footer__sections">
         <section class="collapsible footer__section">
@@ -548,6 +528,7 @@
                   src="images/fishing-rod.png"
                   alt=""
                   class="icon icon--white collapsible__chevron"
+                  loading="lazy"
                 />
               </picture>
             </span>
@@ -573,6 +554,7 @@
                   src="images/fishing-rod.png"
                   alt=""
                   class="icon icon--white collapsible__chevron"
+                  loading="lazy"
                 />
               </picture>
             </span>
@@ -590,7 +572,6 @@
               <li class="list__space">
                 <a
                   target="_blank"
-                  rel="noopener"
                   rel="noreferrer"
                   href="https://www.facebook.com/Narooma-Bridge-Seafoods-384726911665737/"
                   >Facebook Msg</a
@@ -608,21 +589,16 @@
                   src="images/fishing-rod.png"
                   alt=""
                   class="icon icon--white collapsible__chevron"
+                  loading="lazy"
                 />
               </picture>
             </span>
           </div>
           <div class="collapsible__content">
             <ul class="list list__space">
-              <li class="list__space">
-                <a href="location.html">Location</a>
-              </li>
-              <li class="list__space">
-                <a href="faq-page.html">Wholesale</a>
-              </li>
-              <li class="list__space">
-                <a href="faq-page.html">FAQ</a>
-              </li>
+              <li class="list__space"><a href="location.html">Location</a></li>
+              <li class="list__space"><a href="faq-page.html">Wholesale</a></li>
+              <li class="list__space"><a href="faq-page.html">FAQ</a></li>
             </ul>
           </div>
         </section>
@@ -631,6 +607,7 @@
             ><img
               src="images/narooma-bridge-seafood-logo.webp"
               alt="Company Logo"
+              loading="lazy"
             />
           </a>
           <p class="footer__copyright">Copyright Narooma Bridge Seafood 2021</p>
@@ -638,14 +615,12 @@
         </div>
       </div>
     </footer>
-    <!-- Return to top button -->
     <a class="top-link hide" href="" id="js-top">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
         <path d="M12 6H0l6-6z" />
       </svg>
       <span class="screen-reader-text">Back to top</span>
     </a>
-    <!-- JS Scripts -->
     <script src="main.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
@@ -653,5 +628,3 @@
     </script>
   </body>
 </html>
-
-<!--test-->

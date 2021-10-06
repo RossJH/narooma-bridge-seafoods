@@ -22,7 +22,6 @@
     <link rel="stylesheet" href="-css/debug.css" />
   </head>
   <body>
-    <!--NAV-->
     <nav class="nav collapsible" id="top">
       <a class="nav__brand" href="index.html"
         ><img src="images/narooma-bridge-seafood-logo.webp" alt="Company Logo"
@@ -37,21 +36,11 @@
         </picture>
       </span>
       <ul class="list nav__list collapsible__content">
-        <li class="nav__item">
-          <a href="index.html">Home</a>
-        </li>
-        <li class="nav__item">
-          <a href="tel:02-4476-1586">Call Us</a>
-        </li>
-        <li class="nav__item">
-          <a href="fresh-seafood.html">Seafood</a>
-        </li>
-        <li class="nav__item">
-          <a href="about.html">About</a>
-        </li>
-        <li class="nav__item">
-          <a href="index.html#footer">Hours</a>
-        </li>
+        <li class="nav__item"><a href="index.html">Home</a></li>
+        <li class="nav__item"><a href="tel:02-4476-1586">Call Us</a></li>
+        <li class="nav__item"><a href="fresh-seafood.html">Seafood</a></li>
+        <li class="nav__item"><a href="about.html">About</a></li>
+        <li class="nav__item"><a href="index.html#footer">Hours</a></li>
       </ul>
     </nav>
     <section class="block container">
@@ -59,6 +48,18 @@
         <h2>Parking can be crowded during holidays.</h2>
         <p>Please see below the 4 closes and main carparks.</p>
       </header>
+      <div class="google-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d1649.8835045049202!2d150.1216343469433!3d-36.20879844922828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x6b3e17579bfab5eb%3A0x5e564512303a5e69!2snarooma%20bridge%20seafood%20kirsty!3m2!1d-36.2086569!2d150.12274499999998!5e0!3m2!1sen!2sau!4v1633550814805!5m2!1sen!2sau"
+          width="900"
+          height="450"
+          title="google map Narooma Bridge Seafoods"
+          rel="no-referrer"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
       <article class="grid grid--1x2 feature">
         <div class="feature__content" data-aos="fade-right">
           <span class="icon-container">
@@ -89,7 +90,12 @@
         <div class="feature__content" data-aos="fade-up">
           <span class="icon-container">
             <picture class="icon icon--primary">
-              <img src="images/map.png" alt="map icon" class="hero__image" />
+              <img
+                src="images/map.png"
+                alt="map icon"
+                class="hero__image"
+                loading="lazy"
+              />
             </picture>
           </span>
           <h3 class="feature__heading">Riverview Road</h3>
@@ -143,6 +149,7 @@
             class="feature__image"
             src="images/map-caravan-park.webp"
             alt="Caravan park map"
+            loading="lazy"
           />
         </picture>
       </article>
@@ -150,7 +157,12 @@
         <div class="feature__content" data-aos="fade-left">
           <span class="icon-container">
             <picture class="icon icon--primary">
-              <img class="hero__image" src="images/map.png" alt="" />
+              <img
+                class="hero__image"
+                src="images/map.png"
+                alt=""
+                loading="lazy"
+              />
             </picture>
           </span>
           <h3 class="feature__heading">Mill Bay Boatramp</h3>
@@ -165,11 +177,11 @@
             class="feature__image"
             src="images/map-mill-bay-carpark.webp"
             alt=""
+            loading="lazy"
           />
         </picture>
       </article>
     </section>
-    <!-- Callout -->
     <div class="container">
       <div class="callout callout--primary callout-signup">
         <div class="grid grid--1x2">
@@ -189,7 +201,6 @@
         </div>
       </div>
     </div>
-    <!-- Footer Block -->
     <footer class="block footer" id="footer">
       <div class="container grid footer__sections">
         <section class="collapsible footer__section">
@@ -245,7 +256,6 @@
               <li class="list__space">
                 <a
                   target="_blank"
-                  rel="noopener"
                   rel="noreferrer"
                   href="https://www.facebook.com/Narooma-Bridge-Seafoods-384726911665737/"
                   >Facebook Msg</a
@@ -270,15 +280,9 @@
           </div>
           <div class="collapsible__content">
             <ul class="list list__space">
-              <li class="list__space">
-                <a href="location.html">Location</a>
-              </li>
-              <li class="list__space">
-                <a href="faq-page.html">Wholesale</a>
-              </li>
-              <li class="list__space">
-                <a href="faq-page.html">FAQ</a>
-              </li>
+              <li class="list__space"><a href="location.html">Location</a></li>
+              <li class="list__space"><a href="faq-page.html">Wholesale</a></li>
+              <li class="list__space"><a href="faq-page.html">FAQ</a></li>
             </ul>
           </div>
         </section>
@@ -295,7 +299,6 @@
         </div>
       </div>
     </footer>
-    <!-- JS Scripts -->
     <script src="main.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
