@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script type="application/ld+json"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="index, archive" />
@@ -16,11 +17,74 @@
     />
     <meta
       name="description"
-      content="The freshest Seafood on the South-Coast Australia."
+      content="We supply the largest Eastern Lobster quota from Nowra to VIC border. Contact us today for wholesale inquiries. Locals stop into the shop today for seafood."
     />
     <meta property="og:url" content="" />
     <meta name="theme-color" content="#3fa680" />
     <title>Narooma Bridge Seafood - Supplying Fresh Australian Seafood.</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FoodEstablishment",
+        "image": [
+          "https://d33wubrfki0l68.cloudfront.net/0dc16cf4ff7011616054c2f670d2d0865e2f28c7/02582/images/lobster-no-background.png",
+          "https://d33wubrfki0l68.cloudfront.net/dc377d4c98dd4aad3932edd0af47b56d11ac3cae/8ddc8/images/narooma-bridge-seafood-logo.webp",
+          "https://d33wubrfki0l68.cloudfront.net/2d3fdbcdb1a61de1f2ed0eb408f3bc51ccaf6ac0/e1690/images/snapper-fillets.webp",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0y1vx43JMR98dpvU7FgE-g9BSVOpjR7eQ_Q&usqp=CAU"
+        ],
+        "name": "Narooma Bridge Seafood",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Princess Highway",
+          "addressLocality": "Narooma",
+          "addressRegion": "NSW",
+          "postalCode": "2546",
+          "addressCountry": "AU"
+        },
+        "review": {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "4",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Lillian Ruiz"
+          }
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -36.2351965,
+          "longitude": 150.1257408
+        },
+        "url": "https://www.naroomabridgeseafoods.com/",
+        "telephone": "02 4476 1586",
+        "servesCuisine": "Australian",
+        "priceRange": "$$$",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday"
+            ],
+            "opens": "11:30",
+            "closes": "22:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Sunday",
+            "opens": "09:00",
+            "closes": "17:00"
+          }
+        ]
+      }
+    </script>
     <link rel="icon" href="#" />
     <link rel="apple-touch-icon" sizes="72x72" href="#" />
     <link rel="apple-touch-icon" sizes="144x144" href="#" />
@@ -33,10 +97,11 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="canonical" href="https://naroomabridgeseafoods.com" />
   </head>
   <body>
     <nav class="nav collapsible" id="top">
-      <a class="nav__brand" href="index.html"
+      <a class="nav__brand" href="index"
         ><img src="images/narooma-bridge-seafood-logo.webp" alt="Company Logo"
       /></a>
       <span class="icon-container">
@@ -50,10 +115,10 @@
       </span>
       <ul class="list nav__list collapsible__content">
         <li class="nav__item"><a href="tel:02-4476-1586">Call Us</a></li>
-        <li class="nav__item"><a href="location.html">Parking</a></li>
-        <li class="nav__item"><a href="fresh-seafood.html">Seafood</a></li>
-        <li class="nav__item"><a href="about.html">About</a></li>
-        <li class="nav__item"><a href="index.html#footer">Hours</a></li>
+        <li class="nav__item"><a href="location">Parking</a></li>
+        <li class="nav__item"><a href="fresh-seafood">Seafood</a></li>
+        <li class="nav__item"><a href="about">About</a></li>
+        <li class="nav__item"><a href="index#footer">Hours</a></li>
       </ul>
     </nav>
     <section class="block block--skewed-left hero">
@@ -65,7 +130,7 @@
           <p class="hero__tagline">
             Locally caught in Narooma waters 100% Australian seafood.
           </p>
-          <a href="fresh-seafood.html" class="btn btn--secondary btn--stretched"
+          <a href="fresh-seafood" class="btn btn--secondary btn--stretched"
             >View Seafood</a
           >
         </header>
@@ -109,7 +174,7 @@
     <section data-aos="fade-up" class="block container block-plans">
       <div class="grid grid--1x3">
         <div class="plan">
-          <a href="fresh-seafood.html#narooma-oysters"
+          <a href="fresh-seafood#narooma-oysters"
             ><div class="card card--secondary">
               <header class="card__header">
                 <h3 class="plan__name">Special</h3>
@@ -127,7 +192,7 @@
           </a>
         </div>
         <div class="plan plan--popular">
-          <a href="fresh-seafood.html#kingfish"
+          <a href="fresh-seafood#kingfish"
             ><div class="card card--primary">
               <header class="card__header">
                 <h3 class="plan__name">Special</h3>
@@ -145,7 +210,7 @@
           </a>
         </div>
         <div class="plan">
-          <a href="fresh-seafood.html#eastern-rock-lobster-cooked"
+          <a href="fresh-seafood#eastern-rock-lobster-cooked"
             ><div class="card card--secondary">
               <header class="card__header">
                 <h3 class="plan__name">Starting at -</h3>
@@ -188,7 +253,7 @@
             seasonal contact us to see our stock.
           </p>
           <br />
-          <a href="fresh-seafood.html" class="link-arrow">Local Fish</a>
+          <a href="fresh-seafood" class="link-arrow">Local Fish</a>
         </div>
         <picture data-aos="zoom-in-left">
           <img
@@ -255,7 +320,7 @@
             have a Southern or two available at the shop.
           </p>
           <br />
-          <a href="fresh-seafood.html" class="link-arrow">Lobster Types</a>
+          <a href="fresh-seafood" class="link-arrow">Lobster Types</a>
         </div>
         <picture>
           <img
@@ -284,7 +349,7 @@
             to prepare dishes using our local produce.
           </p>
           <br />
-          <a href="fresh-seafood.html" class="link-arrow">See Recipes</a>
+          <a href="fresh-seafood" class="link-arrow">See Recipes</a>
         </div>
         <picture data-aos="fade-right">
           <img
@@ -562,7 +627,7 @@
           <div class="collapsible__content">
             <ul class="list list__space">
               <li class="list__space">
-                <a href="location.html"
+                <a href="location"
                   >Boatshed Princes Highway 2546 Narooma, NSW, Australia</a
                 >
               </li>
@@ -596,9 +661,10 @@
           </div>
           <div class="collapsible__content">
             <ul class="list list__space">
-              <li class="list__space"><a href="location.html">Location</a></li>
-              <li class="list__space"><a href="faq-page.html">Wholesale</a></li>
-              <li class="list__space"><a href="faq-page.html">FAQ</a></li>
+              <li class="list__space"><a href="location">Location</a></li>
+              <li class="list__space"><a href="wholesale">Wholesale</a></li>
+              <li class="list__space"><a href="faq-page">FAQ</a></li>
+              <li class="list__space"><a href="sitemap">Sitemap</a></li>
             </ul>
           </div>
         </section>
