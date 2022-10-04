@@ -827,6 +827,7 @@ label {
     align-self: center;
     margin-left: 3rem;
     padding-top: 0;
+    padding-bottom: 40px;
   }
 }
 @media screen and (min-width: 1024px) {
